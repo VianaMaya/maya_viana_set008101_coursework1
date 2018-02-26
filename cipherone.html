@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="cipher, javascript, educational">
+        <meta name="author" content="Viana Maya">
+        <title>Webtech SET08101 Coursework1 | Welcome </title>
+        
+        
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+     <header>
+         <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Digital</span> V</h1>
+            </div> 
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li> 
+                    <li ><a href="design.html">Design</a></li> 
+                    <li class="current"><a href="cipherone.html">Caesar</a></li> 
+                    <li><a href="ciphertwo.html">Reverse</a></li>
+                  
+                </ul>
+            </nav>
+         </div>
+     </header> 
+       
+
+     <section id="boxes">
+           <div class="container">
+            <div class="box1">
+               
+                <h3>What is a Caesar Cipher</h3>
+                <img src="image/julius_c.jpg"> 
+                    <p>
+                    Caesar cipher, also known as the shift cipher was, created by Julius Caesar to protect messages sent requiring military activites. 
+                    In this website we are allowing the user to play around with the number of shift.The most commonly create caesar cipher if Rot13 - the plaintext is shifted 13 places forwards or backwards, Julius only shifted his message 3 place and according to Suetonius, his cipher were never cracked. As you can see from here, this cipher is too simple to be used as secure encription, so have fun but never use the cipher anywhere else. 
+                    </p>  
+                </div>
+             
+    
+        <div id="box">
+            
+            <textarea  autofocus id="message">“Friends, Romans, countrymen, lend me your ears”. </textarea>
+            <tr>
+              <td><label for="shift">Shift it:</label></td>
+              <td><input type="text" id="shift" value="13" /></td>
+            </tr>
+
+            
+
+            <button type="button" class="button_2"  onclick="encode()"(false)>Encode</button> 
+            <button type="button" class="button_2" onclick="encode()" (true)>Decode</button>        
+        </div>
+        
+        
+        </div>
+
+     
+        
+    </section>
+    
+         
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe for more funky ciphers</h1>
+                <form>
+                    <input type=email placeholder="enter email..">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        
+        
+        
+         <footer>
+             <p>Viana Maya Design Copyright &copy; 2018</p>
+         </footer> 
+         <script type="text/javascript" src="cipher.js"></script>
+         
+        
+    </body>
+    
+    
+</html>

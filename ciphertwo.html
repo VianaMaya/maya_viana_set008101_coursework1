@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="cipher, javascript, educational">
+        <meta name="author" content="Viana Maya">
+        <title>Webtech SET08101 Coursework1 | Welcome </title>
+        
+        
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+     <header>
+         <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Digital</span> V</h1>
+            </div> 
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="design.html">Design</a></li> 
+                    <li><a href="cipherone.html">Caesar</a></li> 
+                    <li class="current"><a href="ciphertwo.html">Reverse</a></li>
+                  
+                </ul>
+            </nav>
+         </div>
+     </header> 
+       
+
+     <section id="boxes">
+         <div class="container">
+       
+         <div class="box1">
+          <h3>Reverse Cipher</h3>
+          <img src="image/atbash.jpg">
+        <p>The reverse cipher or Atbash is one of the simplest of ciphers dated back to the biblical times. It basically returns the written text or words backwords. This type of cipher belongs to the monoalphabetic cipher, same with the Caesar cipher this only used for fun and education. <br>
+            Have a go your message and see what it looks like backwards
+            <h3> Interesting fact Atbash was used to encode the Hebrew alphabet </h3>
+                      
+             </p>  
+          </div> 
+    
+        <div id="box1">
+            <textarea  autofocus id="backward">Type your message here. </textarea>
+            <button class="button_2"  type="button" onclick="reverseMe()" >Reverse Me</button>
+            
+                      
+        </div>
+
+        
+        <div class="box"> 
+            <div id="show">My reverse message</div>
+            
+         </div>
+        </div>
+        
+    </section>
+    
+         
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe for more funky ciphers</h1>
+                <form>
+                    <input type=email placeholder="enter email..">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        
+        
+        
+         <footer>
+             <p>Viana Maya Design Copyright &copy; 2018</p>
+         </footer> 
+         <script type="text/javascript" src="cipher.js"></script>
+         
+        
+    </body>
+    
+    
+</html>

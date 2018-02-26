@@ -1,0 +1,260 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/*Global*/
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    height: 30px;
+    background: #6a8a82;
+    border: 0;
+    color: #cccccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* header*/
+
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #6a8a82 3px solid; 
+    margin-bottom: -40px;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+} 
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #6a8a82;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* showcase*/
+
+#showcase{
+    min-height:300px;
+    background: url(image/backimage.jpeg) no-repeat 0 -400px;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+#showcase, #title h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+    margin-top:50px; 
+    
+}
+
+#newsletter h1{
+    float: left;
+    
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+/*Boxes*/
+
+#boxes{
+    margin-top: 50px;
+    padding: 5px;
+}
+
+#boxes .box{
+    float: left;
+    display: inline;
+    width: 30%;
+    text-align:center;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 200px;
+    float: left;;
+}
+
+#boxes .box1 img{
+    width: 250px;
+    
+}
+
+/*textarea */
+
+#boxes textarea{
+    height:50px;
+    width: 100%;
+    background: #a37c27;
+    color: #f4f4f4;
+    padding-top: 50px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#shift{
+    width: 4em;
+    height: 2em;
+    background: #a7414a;
+    border-radius: 5px;
+    color: #cccccc
+}
+
+.button_2{
+    height: 38px;
+    background: #6a8a82;
+    border: 0;
+    color: #cccccc;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    border-radius: 12px;
+    font-size: 15px
+}
+
+#button_3{
+    position: absolute;
+    background: #a7414a;
+    height: 30px;
+    width: 50px;
+}
+
+/*design page*/
+
+#title{
+    min-height:200px;
+    min-width: auto;
+    background: url(image/webs.jpg)  -300px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+footer{
+    
+    color: #ffffff;
+    background-color: #a7414a;
+    text-align: center;
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
